@@ -1,3 +1,4 @@
+//função soma
 function soma(a, b) {
 
     var num1 = Number(document.getElementById(a).value);
@@ -14,6 +15,7 @@ function soma(a, b) {
     
 }
 
+//função de subtração
 function sub(a, b) {
 
     var num1 = Number(document.getElementById(a).value);
@@ -24,11 +26,12 @@ function sub(a, b) {
     }
     else{
         var resultado = num1 - num2;
-
-    document.getElementById("resultado").innerText = "o resultado é: " + resultado;
+        document.getElementById("resultado").innerText = "o resultado é: " + resultado;
     }
     
 }
+
+//função de multiplicação
 
 function mult(a, b) {
 
@@ -45,6 +48,8 @@ function mult(a, b) {
     }
     
 }
+
+//função de divisão
 
 function div(a, b) {
 
