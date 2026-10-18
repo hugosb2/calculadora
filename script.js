@@ -4,7 +4,7 @@ function soma(a, b) {
     var num2 = Number(document.getElementById(b).value);
 
     if ((num1 === 0)&(num2===0)){
-        document.getElementById("resultado").innerText = "Digite um valor em cada campo";
+        document.getElementById("resultadored").innerText = "Digite um valor em cada campo";
     }
     else{
         var resultado = num1 + num2;
@@ -20,7 +20,7 @@ function sub(a, b) {
     var num2 = Number(document.getElementById(b).value);
 
     if ((num1 === 0)&(num2===0)){
-        document.getElementById("resultado").innerText = "Digite um valor em cada campo";
+        document.getElementById("resultadored").innerText = "Digite um valor em cada campo";
     }
     else{
         var resultado = num1 - num2;
@@ -36,7 +36,7 @@ function mult(a, b) {
     var num2 = Number(document.getElementById(b).value);
 
     if ((num1 === 0)&(num2===0)){
-        document.getElementById("resultado").innerText = "Digite um valor em cada campo";
+        document.getElementById("resultadored").innerText = "Digite um valor em cada campo";
     }
     else{
         var resultado = num1 * num2;
@@ -52,12 +52,12 @@ function div(a, b) {
     var num2 = Number(document.getElementById(b).value);
 
     if ((num1 === 0)&(num2===0)){
-        document.getElementById("resultado").innerText = "Digite um valor em cada campo";
+        document.getElementById("resultadored").innerText = "Digite um valor em cada campo";
     }
     else{
 
         if (num2 === 0){
-            document.getElementById("resultado").innerText = "Denominador não pode ser 0";
+            document.getElementById("resultadored").innerText = "Denominador não pode ser 0";
         }
         else{
             var resultado = num1 / num2;

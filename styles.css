@@ -18,7 +18,6 @@ body{
 
 .corpo {
     background: white;
-    color: #064e3b;
     width: 90%;
     max-width: 400px;
     margin: 50px auto;
@@ -61,4 +60,11 @@ body{
     font-size: 20px;
     font-weight: bold;
     overflow-wrap: anywhere;
+}
+
+.resultadored {
+    font-size: 20px;
+    font-weight: bold;
+    overflow-wrap: anywhere;
+    color:red;
 }
