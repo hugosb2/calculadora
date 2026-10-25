@@ -10,7 +10,7 @@ function soma(a, b) {
     else{
         var resultado = num1 + num2;
 
-    document.getElementById("resultado").innerText = "o resultado é: " + resultado;
+        document.getElementById("resultado").innerText = "o resultado é: " + resultado;
     }
     
 }

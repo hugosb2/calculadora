@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:serif;
+}
+
+.header {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+body{
+    background-image: url("/calculadora/assets/calc.jfif");
+}
+
+.corpo {
+    background: white;
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px #0003;
+}
+
+.input{
+    border: 1px solid #d1d5db;
+    background: #f9fafb;
+    color: #064e3b;
+    outline-color: #16a34a;
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.botao {
+    width: 20%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    background: #004e47;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background: #15803d;
+}
+
+.resultado {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.resultadored {
+    font-size: 20px;
+    font-weight: bold;
+    color:red;
+}

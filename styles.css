@@ -9,11 +9,14 @@
     color: white;
     padding: 20px;
     text-align: center;
+    justify-content: center; 
     font-size: 22px;
+    display: flex;
+    align-items: center;
 }
 
 body{
-    background-image: url("calc.jfif");
+    background-image: url("/calculadora/assets/calc.jfif");
 }
 
 .corpo {
@@ -21,10 +24,9 @@ body{
     width: 90%;
     max-width: 400px;
     margin: 50px auto;
-    padding: 25px;
+    padding: 10px;
     border-radius: 20px;
     text-align: center;
-    box-shadow: 0 8px 25px #0003;
 }
 
 .input{
@@ -52,6 +54,18 @@ body{
     cursor: pointer;
 }
 
+.botao2 {
+    padding: 14px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    font-size: 16px;
+    border: none;
+    background: #004e47;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .botao:hover {
     background: #15803d;
 }
@@ -59,12 +73,40 @@ body{
 .resultado {
     font-size: 20px;
     font-weight: bold;
-    overflow-wrap: anywhere;
 }
 
 .resultadored {
     font-size: 20px;
     font-weight: bold;
-    overflow-wrap: anywhere;
     color:red;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.corpo-parte2 {
+    background: white;
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 8px 25px #0003;
+    align-items: center;
+    text-align: center;
+}
+
+.tabuada {
+    border: 1px solid #0e00a8;
+    color: #2b0071;
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    font-size: 16px;
 }
